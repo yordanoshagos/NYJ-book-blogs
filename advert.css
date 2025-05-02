@@ -18,21 +18,26 @@
     padding-top: 70px;
     padding-bottom: 5rem;
 }
-.nav{
+nav{
     display: flex;
-    border: 1px solid rgb(61, 82, 75);
-    background-color: rgb(61, 82, 75);
-    border-radius: 55px;
-    height: 7vh;
-    align-items: center;
+    background-color: rgb(90, 72, 76);
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-bottom: 5em;
+    width: 100vw;
+    height: 8vh;
     gap: 5%;
-    width: 25vw;
+    align-items: center;
     justify-content: center;
-    margin-left: 36%;
-    font-family: wid;
-    font-size: 120%;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: wid;
+        cursor: pointer;
+    }
 }
-.nav a{
-    color: white;
-    text-decoration: none;
+.icon-link{
+    display: block;
 }
