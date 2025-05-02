@@ -1,0 +1,518 @@
+@font-face {
+    font-family: jmh;
+    src: url(fonts/JMH\ Typewriter.ttf);
+}
+@font-face {
+    font-family: wid;
+    src: url(fonts/wid.ttf);
+}
+@font-face {
+    font-family: zeyada;
+    src: url(fonts/Zeyada-Regular.ttf);
+}
+@font-face {
+    font-family: kurale;
+    src: url(fonts/Kurale/Kurale-Regular.ttf);
+}
+body{
+    margin: 0 auto;
+    background-color: rgb(212, 206, 181);
+    overflow-x: hidden;
+}
+.born-a-crime-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.596)), url('images/open-antique-book.jpg');
+    background-position: center; 
+    background-size: 35vw 50vh;
+    height: 50vh;
+    width: 100vw;
+    font-family: kurale;
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    font-family: wid;
+    font-size: 210%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: -0.1%;
+}
+
+.trevor-book-img img{
+    width: 13vw;
+    border-radius: 15px;
+}
+nav{
+    display: flex;
+    background-color: rgb(90, 72, 76);
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    margin-bottom: 5em;
+    width: 100vw;
+    height: 8vh;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: wid;
+        cursor: pointer;
+    }
+
+}
+.icon-link{
+    display: block;
+}
+
+.humor-as-armor h2{
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
+    z-index: 1;
+    overflow: visible;
+    font-family: kurale;
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+}                
+.humor-as-armor img{
+    top: 15%;
+    width: 30vw;
+    border-radius: 15px;
+    filter: brightness(0.5);
+    transition: transform 0.3s ease-in-out;
+} 
+.humor-title img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.humor-as-armor{
+    position: relative;
+    display: flex;
+    margin-bottom: 5%;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding-top: 3%;
+    color: black;
+    padding-bottom: 5%;
+    width: 85vw;
+    margin-left: 6%;  
+    margin-bottom: 6em;
+}
+
+.humor-dropdown{
+    font-family: kurale;
+    font-size: 128%;
+    position: absolute;
+    width: 85vh;
+    padding: 19px 16px;
+    top: -16%;
+    left: 48%;
+    z-index: 1;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.humor-dropdown p{
+    font-size: 90%;
+}
+
+.identity-belonging{
+    display: flex;
+    gap: 10%;
+    padding: 4%;
+
+    
+}
+#identity-title{
+    font-family: kurale;
+    text-align: center;
+    font-size: 250%;
+    color: rgb(112, 50, 8);
+    margin-bottom: 3%;
+}
+.identity-belonging-txt{
+    font-family: kurale;
+    font-size: 125%;
+    margin-top: -2%;
+    height: 75vh;
+    width: 120vw;
+    border-radius: 15px;
+    padding: 1%;
+    transition: transform 0.3s ease-in-out;
+}
+.identity-belonging-txt:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.identity-belonging-txt span{
+    color: rgb(145, 2, 2);
+    font-size: 120%;
+    margin-left: 10%;
+}
+.vertical-line {
+    width: 4px; 
+    height: 585px;
+    border-left: 1px solid black; 
+    margin: 0 auto;
+  }
+.identity-img img{
+    width: 30vw;
+    filter: brightness(0.6);
+    height: 75vh;
+    margin-top: -5%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+} 
+.identity-img img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.images-born-a-crime{
+    display: flex;
+    gap: 5%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.images-born-a-crime img{
+    height: 25vh;
+    width: 15%;
+}
+.family-protection{
+    font-family: kurale;
+    font-size: 125%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 14%;
+    width: 70%;
+    margin-bottom: 6%;
+}
+.family-protection h2{
+    font-size: 250%;
+    color: rgb(112, 50, 8);
+}
+.protaginest{
+       display: flex;
+    gap: 15%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5%;
+}
+.patricia-trevor-img{
+    padding: 2%;
+}
+.patricia-protaginest{
+    font-family: kurale;
+    font-size: 125%;
+    width: 45vw;
+}
+.patricia-protaginest h2{
+    font-size: 200%;
+}
+#mother-trevor{
+    width: 70%;
+    border: 7px solid white;
+}
+#patricia-trevor{
+    width: 69%;
+    margin-left: 76%;
+    margin-top: -19%;
+    border: 7px solid white;
+}
+.love-title{
+    font-family: kurale;
+    font-size: 200%;
+    text-align: center;
+}
+.love-family{
+    margin-top: -5.1%;
+}
+.familial-romantic {
+    display: none;
+    margin-top: 8em;
+
+}
+.love-container {
+      position: relative;
+    max-width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    width: 60vw;
+    color: rgb(0, 0, 0);
+    height: 55vh;
+    margin-top: 5%;
+    font-family: kurale;
+    margin-bottom: 1em;
+}
+
+.fam-love-content{
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 65%;
+    margin-left: 15%;
+
+}
+
+.navigation-button {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 206, 181);
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.w3-display-left {
+    left: 0;
+}
+
+.w3-display-right {
+    right: 0;
+}
+
+.navigation-button:hover {
+    background-color: rgb(24, 22, 22);
+}
+
+.summary{
+    display: flex;
+    padding: 1em;
+}
+.summary p{
+    font-family: kurale;
+    width: 70vw;
+    margin-top: 3.5em;
+    font-size: 125%;
+    height: 17vh;
+    text-align: center;
+    padding: 5em;
+}
+.summary img{
+    width: 22vw;
+}
+
+footer{
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 10em;
+    font-family: kurale;
+    color: white;
+    font-size: 150%;
+    background-color: rgb(82, 65, 68);
+    border: 1px solid rgb(100, 98, 98);
+}
+footer h1{
+    border-bottom: 1px solid black;
+    width: 78vw;
+}
+.icon-white path {
+    fill: white;
+}
+.company{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.company img{
+    width: 15vw;
+    height: 17vh;
+}
+#marven{
+    text-align: center;
+}
+.copy{
+    border-top: 1px solid gray;
+    text-align: center;
+    padding-top: 1em;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 750px) {
+  body{
+    /* margin-top: 15em; */
+    width: 100vw;
+  }
+  .book-title{
+    font-size: 60%;
+  }
+  .born-a-crime-page{
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100vw;
+  }
+  .trevor-book-img img{
+    width: 50vw;
+    height: auto;
+
+  }
+ .humor-as-armor{
+  flex-direction: column;
+  }
+  .humor-as-armor h2{
+    font-size: 50%;
+  }
+    .identity-belonging,
+    .summary {
+      flex-direction: column;
+      gap: 2em;
+      text-align: center;
+    }
+    .identity-img img,
+    .summary img {
+      width: 50vw;
+      height: auto;
+      margin: 0 auto;
+    }
+    .identity-belonging-txt,
+    .summary p {
+      width: 90vw;
+      font-size: 120%;
+      margin: 0 auto;
+    }
+    nav {
+      flex-wrap: wrap;
+      width: 100vw;
+      height: auto;
+      font-size: 100%;
+    }
+    .protaginest {
+      flex-direction: column;
+      gap: 2em;
+    }
+    .patricia-protaginest {
+      width: 90vw;
+      text-align: center;
+    }
+    #mother-trevor,
+    #patricia-trevor {
+      width: 80vw;
+      margin: 0 auto;
+    }
+    .love-container {
+      width: 90vw;
+      height: auto;
+      font-size: 1rem;
+    }
+    form{
+      padding: 0%;
+    }
+    form input{
+      width10vh
+    }
+  }
+
+  @media only screen and (min-width: 751px) and (max-width: 999px) {
+    .born-a-crime-page,
+    .identity-belonging,
+    .summary {
+      flex-direction: column;
+      gap: 3em;
+      text-align: center;
+    }
+    .trevor-book-img img,
+    .identity-img img,
+    .summary img {
+      width: 60vw;
+      height: auto;
+      margin: 0 auto;
+    }
+    .identity-belonging-txt,
+    .summary p {
+      width: 80vw;
+      font-size: 130%;
+      margin: 0 auto;
+    }
+    nav {
+      width: 95vw;
+      font-size: 110%;
+    }
+    .protaginest {
+      flex-direction: column;
+      gap: 3em;
+      text-align: center;
+    }
+    .patricia-protaginest {
+      width: 85vw;
+      margin: 0 auto;
+    }
+    #mother-trevor,
+    #patricia-trevor {
+      width: 70vw;
+      margin: 1em auto;
+    }
+    .love-container {
+      width: 80vw;
+      height: auto;
+      font-size: 1.1rem;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    .born-a-crime-page {
+      gap: 10%;
+      font-size: 170%;
+    }
+    .trevor-book-img img {
+      width: 18vw;
+    }
+    .identity-img img {
+      width: 40vw;
+    }
+    .identity-belonging-txt {
+      font-size: 120%;
+    }
+    .summary p {
+      font-size: 150%;
+      padding: 3em;
+    }
+    .summary img {
+      width: 28vw;
+    }
+    nav {
+      width: 95vw;
+    }
+    .love-container {
+      width: 75vw;
+      height: auto;
+      font-size: 1.2rem;
+    }
+  }
+
+  @media only screen and (min-width: 1301px) {
+    .born-a-crime-page {
+      gap: 20%;
+      font-size: 200%;
+    }
+    .trevor-book-img img {
+      width: 13vw;
+    }
+    .identity-img img {
+      width: 34vw;
+      height: 79vh;
+    }
+    .identity-belonging-txt {
+      font-size: 135%;
+    }
+    .summary p {
+      font-size: 200%;
+      padding: 5em;
+    }
+    nav {
+      width: 99vw;
+    }
+    .love-container {
+      width: 60vw;
+      height: 55vh;
+      font-size: 1.3rem;
+    }
+   
+  
+  }
+
